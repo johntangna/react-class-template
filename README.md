@@ -1,5 +1,3 @@
-1. 外采赠品
-2. 药品
-3. 物料
-4. 品牌
-5. 供应商-品牌多选
+# react类组件开发
+
+# react、react-redux、react-router，支持基本功能的实现
