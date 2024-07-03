@@ -1,0 +1,28 @@
+.contract, .cooperation {
+  position: relative;
+  text-align: center;
+  .on {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      width: 8px;
+      height: 8px;
+      transform: translate(0, -50%);
+      border-radius: 50%;
+      background-color: green
+    }
+  }
+  .off {
+    &::before {
+      background-color: red
+    }
+  }
+}
+
+.team_pool {
+  .header .ant-card-body {
+    padding: 12px 24px !important;
+  }
+}
